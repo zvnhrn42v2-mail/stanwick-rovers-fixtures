@@ -1,0 +1,36 @@
+name: Update Stanwick Rovers Fixtures
+
+on:
+  schedule:
+    - cron: '0 7 * * 1'   # Every Monday at 07:00 UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  update-fixtures:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write       # needed to commit the updated ICS
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate fixtures ICS
+        run: python fa_fixtures_to_ics.py fixtures.ics
+
+      - name: Commit and push updated ICS
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add fixtures.ics
+          git diff --staged --quiet && echo "No changes to commit" || \
+            git commit -m "Update fixtures $(date -u +%Y-%m-%d)" && git push
