@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Stanwick Rovers — Div 2 Fixtures//fulltime.thefa.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Stanwick Rovers — Div 2 Fixtures
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+SUMMARY:Earls Barton United Reserves v Stanwick Rovers First
+DTSTART;TZID=Europe/London:20260829T143000
+DTEND;TZID=Europe/London:20260829T163000
+UID:earls-barton-united-reserves-v-stanwick-rovers-first-20260829@fulltime
+ .thefa.com
+DESCRIPTION:Earls Barton United Reserves v Stanwick Rovers First\nVenue: T
+ he Grange\, Earls Barton NN6 0HA\nType: Division Two\nSource: https://full
+ time.thefa.com
+LOCATION:The Grange\, Earls Barton NN6 0HA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stanwick Rovers First v Woodford United FC Third Team
+DTSTART;TZID=Europe/London:20260905T143000
+DTEND;TZID=Europe/London:20260905T163000
+UID:stanwick-rovers-first-v-woodford-united-fc-third-team-20260905@fulltim
+ e.thefa.com
+DESCRIPTION:Stanwick Rovers First v Woodford United FC Third Team\nVenue: 
+ Stanwick Recreation Ground NN9 6PP\nType: Division Two\nSource: https://fu
+ lltime.thefa.com
+LOCATION:Stanwick Recreation Ground NN9 6PP
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AFC Woodford Wolves First v Stanwick Rovers First
+DTSTART;TZID=Europe/London:20260919T143000
+DTEND;TZID=Europe/London:20260919T163000
+UID:afc-woodford-wolves-first-v-stanwick-rovers-first-20260919@fulltime.th
+ efa.com
+DESCRIPTION:AFC Woodford Wolves First v Stanwick Rovers First\nVenue: Wood
+ ford C&S Club NN14 4HD\nType: Division Two\nSource: https://fulltime.thefa
+ .com
+LOCATION:Woodford C&S Club NN14 4HD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stanwick Rovers First v Milton Reserves
+DTSTART;TZID=Europe/London:20260926T143000
+DTEND;TZID=Europe/London:20260926T163000
+UID:stanwick-rovers-first-v-milton-reserves-20260926@fulltime.thefa.com
+DESCRIPTION:Stanwick Rovers First v Milton Reserves\nVenue: Stanwick Recre
+ ation Ground NN9 6PP\nType: Division Two\nSource: https://fulltime.thefa.c
+ om
+LOCATION:Stanwick Recreation Ground NN9 6PP
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daventry Drayton Grange Saturday Mens v Stanwick Rovers First
+DTSTART;TZID=Europe/London:20261003T140000
+DTEND;TZID=Europe/London:20261003T160000
+UID:daventry-drayton-grange-saturday-mens-v-stanwick-rovers-first-20261003
+ @fulltime.thefa.com
+DESCRIPTION:Daventry Drayton Grange Saturday Mens v Stanwick Rovers First
+ \nVenue: Mayfield Park\, Royal Star Drive\, Daventry. NN11 9FZ\nType: Divi
+ sion Two\nSource: https://fulltime.thefa.com
+LOCATION:Mayfield Park\, Royal Star Drive\, Daventry. NN11 9FZ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Weldon United FC First v Stanwick Rovers First
+DTSTART;TZID=Europe/London:20261010T143000
+DTEND;TZID=Europe/London:20261010T163000
+UID:weldon-united-fc-first-v-stanwick-rovers-first-20261010@fulltime.thefa
+ .com
+DESCRIPTION:Weldon United FC First v Stanwick Rovers First\nVenue: Rocking
+ ham Triangle\, Corby. NN17 2FB\nType: Division Two\nSource: https://fullti
+ me.thefa.com
+LOCATION:Rockingham Triangle\, Corby. NN17 2FB
+END:VEVENT
+END:VCALENDAR
